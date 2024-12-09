@@ -19,8 +19,8 @@ https://github.com/IvanGallego13/U2Storage.git (importante estar en la carpeta b
 
 -Y hacemos un cd backend/U2Storage(no te preocupes si sale un modify en backend/U2Storage deberia de funcionar sin problema)
 
--Una vez estemos en U2Storage, ponemos para iniciar el composer:  composer install -n –prefer-dist ,   cp .env.ci .env ,
- php artisan key:generate (todas por separado). Y probamos php artisan test(deberia pasar todos los test sin problema)
+-Una vez estemos en U2Storage, ponemos para iniciar el composer: composer install -n --prefer-dist  ,   cp .env.ci .env ,
+ php artisan key:generate (todas por separado,esta en la preparacion de Storage). Y probamos php artisan test(deberia pasar todos los test sin problema)
 
 -Ahora pones php artisan serve y se abre el servidor. Esta hecho para que se abra en [http://127.0.0.1:8001]
 
